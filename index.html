@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto SEDES - Agencia Secreta Colaborativa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/sedes.jpg" alt="Logo SEDES">
+    <h1>Listado de SEDES de la Agencia</h1>
+    <div class="filters">
+      <input type="text" id="filter-name" placeholder="Filtrar por nombre">
+      <input type="text" id="filter-country" placeholder="Filtrar por país">
+    </div>
+  </header>
+
+  <main>
+    <table id="sedes-table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>País</th>
+          <th>Dirección</th>
+          <th>Coordenadas GPS</th>
+          <th>N.º de trabajadores</th>
+        </tr>
+      </thead>
+      <tbody id="sedes-body">
+      </tbody>
+    </table>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+

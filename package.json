@@ -1,0 +1,12 @@
+{
+  "name": "proyecto_sedes",
+  "version": "a 1.0",
+  "description": ,
+  "main": index.js,
+  "script": [
+    "test": "echo \"Error: no test specified && exit 1"
+  ],
+  "keywords": [{js},{html}],
+  "author": "andres <andrests@uoc.edu>",
+  "lisense": "MITO"
+}
